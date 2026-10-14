@@ -1,50 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <link rel="stylesheet" href="styles.css">
   <title>My Portfolio - John Sheffield</title>
 </head>
 <body>
 
   <h1>John Sheffield</h1>
-  <div style="display: flex;">
-    <a href="index.html" style="width:33%;">
+  <div style="display: flex; flex-wrap: wrap;">
+    <a href="index.html" style="width:33%; min-width: calc(50% - 4px); margin-bottom: 8px;">
       <button class="button-header">About Page</button>
     </a>
-    <a href="portfolio.html" style="width:34%;">
+    <a href="portfolio.html" style="width:33%; min-width: calc(100% - 4px); margin-bottom: 8px;">
       <button class="button-header">Portfolio</button>
     </a>
-    <a href="contactPage.html" style="width:33%;">
+    <a href="contactPage.html" style="width:33%; min-width: calc(50% - 4px); margin-bottom: 8px;">
       <button class="button-header">Contact Page</button>
     </a>
   </div>
 
-  <a href="https://grade-cal-hub.vercel.app/final-grade-calculator" target="_blank">
+  <a href="https://github.com/r2d2well/AI-Genie" target="_blank">
     <div class="box">
-      <h2>GradeCalHub</h2>
-      <div style="display: flex;">
-        <p>GradeCalHub is a web application designed to help students efficiently calculate and track their academic grades. Built with a React front-end, it offers a responsive and intuitive user interface for seamless interaction. The backend, powered by Node.js, ensures robust data processing and secure communication between the client and server. Utilizing MongoDB Atlas for its database, GradeCalHub provides reliable data storage and retrieval, enabling users to easily manage their coursework and monitor their academic progress. This project demonstrates a full-stack development approach, highlighting skills in modern web technologies and cloud-based solutions.</p>
-        <img src="Images/GradeCalHub.png" alt="Screenshot of GradeCalHub application interface" width="480" height="216">
+      <h2>AI Genie - Customer Support Assistant</h2>
+      <div style="display: flex; flex-wrap: wrap;">
+        <p style="flex: 1; min-width: calc(50% - 4px); margin-bottom: 8px;">Led a 5-person team in developing an AI assistant using OpenAI LLMs and NLP to support customers. Implemented document vectorization for retrieval-augmented generation (RAG) from technical documentation. Modified existing React Native UI and Python backend to integrate advanced AI capabilities into the platform, enabling intelligent customer service automation.</p>
+        <img src="Images/CS 3642 Asssignment 3.png" alt="AI Genie project interface screenshot" style="flex: 1; min-width: calc(50% - 4px); margin-bottom: 8px;" width="299" height="244">
       </div>
     </div>
   </a>
 
-  <a href="https://github.com/r2d2well/CS-4742-Term-Project" target="_blank">
+  <a href="https://github.com/r2d2well/CS-3642-Assignment-3" target="_blank">
     <div class="box">
-      <h2>MBTI Personality Chatbot</h2>
-      <div style="display: flex;">
-        <p>This chatbot was developed for CS 4742 (Natural Language Processing) utilizing a trained distilBERT model from Hugging Face's transformers API that takes in user input and predicts their personality type based on the analysis. The model was trained on a mix of dataset found on Kaggle, with most data synthetically generated through various means. During training, the model achieved an overall accuracy of 93% across all personality types with balanced representation for each category. The front-end implementation used Flask in combination with traditional HTML, JavaScript, and CSS.</p>
-        <img src="Images/MBTI Personality Type Chatbot.gif" alt="GIF showing MBTI chatbot in action" width="300" height="169">
+      <h2>MBTI Personality Predictor</h2>
+      <div style="display: flex; flex-wrap: wrap;">
+        <p style="flex: 1; min-width: calc(50% - 4px); margin-bottom: 8px;">Developed a personality classification model using custom-trained DistilBERT from Hugging Face's transformers API. Trained on Kaggle dataset with synthetic data generation, achieving 93% accuracy across all MBTI categories. Implemented Flask-based chatbot interface for user interaction and prediction.</p>
+        <img src="Images/MBTI Personality Type Chatbot.gif" alt="GIF showing MBTI personality predictor in action" style="flex: 1; min-width: calc(50% - 4px); margin-bottom: 8px;" width="329" height="169">
       </div>
     </div>
   </a>
 
-  <a href="https://github.com/r2d2well/Final-Grade-Calculator" target="_blank">
+  <a href="https://github.com/r2d2well/Blackjack-Sim" target="_blank">
     <div class="box">
-      <h2>Final Grade Calculator</h2>
-      <div style="display: flex;">
-        <p>A program that allows users to create, use, and edit grade calculators to help calculate current grades as well as determine the minimum score needed on an assignment to achieve a desired final grade. Designed using Windows Forms UI framework with backend implemented in C# programming language for easy deployment across any Windows device with minimal setup effort. Uses file I/O operations to ensure data including current grades are saved between uses, even when the device is turned off, minimizing user input time and improving overall quality of life.</p>
-        <img src="Images/Final Grade Calculator.png" alt="Screenshot showing Final Grade Calculator interface in operation" width="236" height="208">
+      <h2>Cargill Audit Software</h2>
+      <div style="display: flex; flex-wrap: wrap;">
+        <p style="flex: 1; min-width: calc(50% - 4px); margin-bottom: 8px;">Developed audit software for Cargill that identified and removed over 9,000 stale applications within one year. The solution reduced security vulnerabilities while lowering infrastructure costs through automated application lifecycle management.</p>
+        <img src="Images/BlackJack.png" alt="Screenshot showing Blackjack Simulator gameplay interface" style="flex: 1; min-width: calc(50% - 4px); margin-bottom: 8px;" width="329" height="194">
       </div>
     </div>
   </a>
@@ -52,69 +54,9 @@
   <a href="https://github.com/KSU-AI-Club/BusyBee" target="_blank">
     <div class="box">
       <h2>KSU AI Club Busy Bee</h2>
-      <div style="display: flex;">
-        <p>I contributed to the KSU AI Club's Busy Bee project by helping develop the front-end. Using React.js frameworks, we developed a website that users can access our object detection system capable of detecting and classifying bees at the tribe level. Collaborated with several other club members on developing the front-end, as well as working with other groups to properly implement their work alongside ours in a seamless manner.</p>
-        <img src="Images/Busy Bee.gif" alt="GIF showing Busy Bee object detection system demonstration" width="300" height="169">
-      </div>
-    </div>
-  </a>
-
-  <a href="https://github.com/r2d2well/Blackjack-Sim" target="_blank">
-    <div class="box">
-      <h2>BlackJack Simulator</h2>
-      <div style="display: flex;">
-        <p>This program was developed for my CS 3642 (Artificial Intelligence) class assignment #1. The task required creating a basic AI agent and implementing it in the game. I created two basic AI agents - one plays as the dealer against the player, while another can be toggled on/off to play in place of the user. The program was designed so that it serves both as an AI demonstration tool or fun entertainment for users. Programmed using C# with Windows Forms framework.</p>
-        <img src="Images/BlackJack.png" alt="Screenshot showing Blackjack Simulator gameplay interface" width="329" height="194">
-      </div>
-    </div>
-  </a>
-
-  <a href="https://github.com/Andrew-Palmertree/hackathon2024_CC_AI-KSU" target="_blank">
-    <div class="box">
-      <h2>KSU Spring 2024 Hackathon</h2>
-      <div style="display: flex;">
-        <p>I participated in the Spring 2024 Hackathon at Kennesaw State University. My team and I developed a solution to help deaf people and visual listeners connect more easily with their environment. Our original plan was to use an AR headset to capture the world around users and place text above each person's head who is currently talking near them. However, we pivoted since the AR headset display didn't look professional enough for demonstration purposes. We ended up using an Android app to simulate the AR experience instead. Using Android Studio, we developed the app to convert speech to text in real-time and used Google's Detect Faces API to locate the face of each speaker and position text above them.</p>
-        <img src="Images/Live Vision Logo.webp" alt="Screenshot showing Live Vision logo from hackathon project" width="314" height="142">
-      </div>
-    </div>
-  </a>
-
-  <a href="https://github.com/r2d2well/8-Puzzle-Simulator" target="_blank">
-    <div class="box">
-      <h2>8 Puzzle Simulator</h2>
-      <div style="display: flex;">
-        <p>This program was designed for the 2nd assignment in my CS 3642 (Artificial Intelligence) course. For this assignment, I created a program that solves the 8-puzzle problem using various search algorithms including depth-first, uniform-cost, best-first, and A*. After solving, the program displays the solution found by the chosen algorithm along with the number of moves taken to discover it and total time elapsed. Users can also choose any end state or have one selected randomly. The puzzle is fully playable so users can enjoy entertainment while improving cognitive skills.</p>
-        <img src="Images/8 Puzzle.png" alt="Screenshot showing 8-puzzle solver interface in operation" width="265" height="162">
-      </div>
-    </div>
-  </a>
-
-  <a href="https://www.curseforge.com/minecraft/mc-mods/minecraft-mug-maker-mod" target="_blank">
-    <div class="box">
-      <h2>Minecraft Mug Maker Mod</h2>
-      <div style="display: flex;">
-        <p>This mod for Minecraft was commissioned by a client. The mod includes new ingredients that can be used in an all-new Mixer block with its own custom GUI to create various different root beers, each with their own unique effects. Programmed using the popular Forge API for Minecraft, allowing easy installation and play while remaining compatible with any other Forge mods of the same version.</p>
-        <img src="Images/MMM.webp" alt="Screenshot showing Mug Maker Mod custom GUI interface" width="335" height="189">
-      </div>
-    </div>
-  </a>
-
-  <a href="https://github.com/r2d2well/SWE-3313-Final-Project" target="_blank">
-    <div class="box">
-      <h2>SWE 3313 Final Project</h2>
-      <div style="display: flex;">
-        <p>The final group project for my SWE 3313 (Intro to Software Engineering) course. This program was developed by a team of four including myself. The goal was to simulate real-world software engineering processes. We created in-house software that would be used at a fictional restaurant, given minimum viable product requirements and additional information obtained from the client (professor). Using agile methodology called Scrum kept us on track throughout development. Beyond the final program, we also created several documentation artifacts during the software engineering process to ensure meeting our deadline.</p>
-        <img src="Images/SWE FInal Project.png" alt="Screenshot showing SWE 3313 Final Project interface and output" width="321" height="209">
-      </div>
-    </div>
-  </a>
-
-  <a href="https://github.com/r2d2well/CS-3642-Assignment-3" target="_blank">
-    <div class="box">
-      <h2>CS 3642 Assignment #3</h2>
-      <div style="display: flex;">
-        <p>The third assignment for my CS 3642 (Artificial Intelligence) course required creating a perceptron capable of training itself to solve the three black squares problem and demonstrating its capabilities. I chose to demonstrate this with a movie prediction algorithm that would predict odds a user of a streaming app would enjoy a movie based on previously watched titles, using The Matrix as an example case study. I ran 5 tests to determine classification accuracy on the three black squares problem - each test had 16 possible states for a total of 80 states. Out of those 80 total states, 78 were correct predictions with only 2 false positives that incorrectly classified all blocks as dark when only 2 squares should be black and others white. This resulted in a 97.75% classification accuracy rate (78/80). Calculating the movie prediction perceptron's accuracy is subjective since whether someone would enjoy a movie depends on personal preference, so we cannot objectively determine if weights are accurate based solely on results. However, examining them reveals clear trends showing exactly what I aimed to produce from the perceptron.</p>
-        <img src="Images/CS 3642 Asssignment 3.png" alt="Screenshot of movie prediction perceptron form CS 3642 Assignment #3 output and interface" width="299" height="244">
+      <div style="display: flex; flex-wrap: wrap;">
+        <p style="flex: 1; min-width: calc(50% - 4px); margin-bottom: 8px;">Contributed to the KSU AI Club's Busy Bee project by developing front-end using React.js. Built a website for object detection system capable of detecting and classifying bees at the tribe level, collaborating with club members on seamless integration.</p>
+        <img src="Images/Busy Bee.gif" alt="GIF showing Busy Bee object detection demonstration" style="flex: 1; min-width: calc(50% - 4px); margin-bottom: 8px;" width="329" height="169">
       </div>
     </div>
   </a>
@@ -122,9 +64,9 @@
   <a href="https://github.com/Kallikalev/virtualOperatingSystem" target="_blank">
     <div class="box">
       <h2>Virtual Operating System</h2>
-      <div style="display: flex;">
-        <p>Semester project for CS 3502 where we created a virtual operating system from scratch coded in C++. The goal was to simulate our own simple operating system so we could better understand how real-world operating systems operate and complete both simple and complex tasks. Our OS takes basic instructions and completes operations based on those through processes. It is capable of running multiple processes across multiple simulated processing cores, with the number dependent on user configuration. To accomplish this, we created a virtual hard drive, virtual primary memory, virtual processor, virtual bootloader, and scheduler to place processes from our waiting queue onto available processors. All these components work together to form a functioning virtual operating system.</p>
-        <img src="Images/Virtual Operating System.png" alt="Screenshot showing Virtual Operating System output and interface in operation" width="303" height="250">
+      <div style="display: flex; flex-wrap: wrap;">
+        <p style="flex: 1; min-width: calc(50% - 4px); margin-bottom: 8px;">Semester project for CS 3502 where we created a virtual operating system from scratch in C++. Engineered multi-threading and memory paging support with kernel programs managing process control, memory management, and threads across multiple simulated CPUs.</p>
+        <img src="Images/Virtual Operating System.png" alt="Screenshot showing Virtual OS output interface" style="flex: 1; min-width: calc(50% - 4px); margin-bottom: 8px;" width="329" height="250">
       </div>
     </div>
   </a>
