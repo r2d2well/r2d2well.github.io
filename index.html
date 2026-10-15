@@ -1,43 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <link rel="stylesheet" href="styles.css">
   <title>John Sheffield - About Me</title>
 </head>
 <body>
 
   <h1>John Sheffield</h1>
-  <div style="display: flex;">
-    <a href="index.html" style="width:33%;">
+  <div style="display: flex; flex-wrap: wrap;">
+    <a href="index.html" style="width:33%; min-width: calc(50% - 4px); margin-bottom: 8px;">
       <button class="button-header">About Page</button>
     </a>
-    <a href="portfolio.html" style="width:34%;">
+    <a href="portfolio.html" style="width:33%; min-width: calc(50% - 4px); margin-bottom: 8px;">
       <button class="button-header">Portfolio</button>
     </a>
-    <a href="contactPage.html" style="width:33%;">
+    <a href="contactPage.html" style="width:33%; min-width: calc(100% - 4px); margin-bottom: 8px;">
       <button class="button-header">Contact Page</button>
     </a>
   </div>
 
   <div class="box">
     <h2>About Me</h2>
-    <div style="display: flex;">
-      <p>I am a current student seeking real-world experience with an eagerness to learn new skills. I have the ability to complete tasks on time in both individual and team settings with a high degree of quality. Dependable, reliable, and committed to excellence.</p>
-      <img src="Images/ProfilePic.webp" alt="Self Photo - John Sheffield profile picture" width="212" height="283">
+    <div style="display: flex; flex-wrap: wrap;">
+      <p style="flex: 1; min-width: calc(50% - 4px); margin-bottom: 8px;">I am an Associate Software Engineer at Cargill, Incorporated where I participate in the Technology Development Program with rotational assignments across software engineering, operations, and digital transformation. Previously a Computer Science student at Kennesaw State University (Class of 2025) with AI concentration and Dean's List honors for 6 consecutive semesters. Passionate about artificial intelligence, NLP, full-stack development, and building scalable solutions that solve real-world problems.</p>
+      <img src="Images/ProfilePic.webp" alt="Self Photo - John Sheffield profile picture" style="flex: 1; min-width: calc(50% - 4px); margin-bottom: 8px;" width="212" height="283">
+    </div>
+  </div>
+
+  <div class="box">
+    <h2>Experience</h2>
+    <div style="display: flex; flex-wrap: wrap;">
+      <p style="flex: 1; min-width: calc(50% - 4px); margin-bottom: 8px;"><strong>Cargill, Incorporated</strong><br/>Associate Software Engineer | June 2025 – Present<br/><br/>• Participate in Cargill's Technology Development Program with rotational assignments across software engineering, operations, and digital transformation.<br/>• Developed audit software that identified and removed over 9,000 stale applications within one year, reducing security vulnerabilities and lowering infrastructure costs.<br/>• Contribute to MyCBI project by developing and maintaining software components supporting internal data and document workflows.</p>
+      <img src="Images/CS 3642 Asssignment 3.png" alt="Professional development screenshot" style="flex: 1; min-width: calc(50% - 4px); margin-bottom: 8px;" width="299" height="244">
     </div>
   </div>
 
   <div class="box">
     <h2>Education</h2>
-    <div style="display: flex;">
-      <p>I attended Creekview High School in Canton, Georgia where I graduated with honors in the Class of 2021. During my senior year in high school, I participated in Georgia's dual enrollment program at Reinhardt University, allowing me to earn 26 college credit hours by the time of my high school graduation. I am currently attending Kennesaw State University for a Bachelor's degree in Science with a major in Computer Science and maintaining a current GPA of 3.72. In the 6 semesters I have been at KSU, I have made Dean's List 5 consecutive times from Spring 2022 to Spring 2024 and was on President's List twice - once during Fall 2022 and again during Spring 2024. Currently expecting graduation in the Spring of 2025.</p>
-      <img src="Images/KSU.png" alt="Kennesaw State University Logo" width="217" height="205">
+    <div style="display: flex; flex-wrap: wrap;">
+      <p style="flex: 1; min-width: calc(50% - 4px); margin-bottom: 8px;"><strong>Kennesaw State University</strong><br/>Bachelor of Science in Computer Science | August 2021 – May 2025<br/><br/>• Concentration in Artificial Intelligence<br/>• GPA: 3.76 / 4.0<br/>• Dean's List for 6 consecutive semesters (Spring 2022 - Spring 2024)<br/>• President's List twice (Fall 2022, Spring 2024)</p>
+      <img src="Images/KSU.png" alt="Kennesaw State University Logo" style="flex: 1; min-width: calc(50% - 4px); margin-bottom: 8px;" width="217" height="205">
     </div>
-  </div>
-
-  <div class="box">
-    <h2 style="margin: auto;">Resume</h2>
-    <embed src="Resume.pdf" width="75%" height="750" style="margin: auto; border-radius: 10px;">
   </div>
 
 </body>
