@@ -53,7 +53,7 @@ p {
 
 img {
   float: none !important;
-  max-width: 37%; /* Reduced from 40% */
+  max-width: 27%; /* Reduced from 40%, then 37% */
   height: auto;
   border-radius: 8px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
