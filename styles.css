@@ -20,7 +20,7 @@ h1 {
   text-align: center;
   font-size: 24px;
   transition-duration: .5s;
-  width: 100%;
+  width: calc(30% - 8px); /* Reduced from 100% for better layout */
 }
 
 .button-header:hover {
@@ -53,7 +53,7 @@ p {
 
 img {
   float: none !important;
-  max-width: 40%;
+  max-width: 37%; /* Reduced from 40% */
   height: auto;
   border-radius: 8px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
