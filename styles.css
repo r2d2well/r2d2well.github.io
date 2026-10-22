@@ -12,21 +12,39 @@ h1 {
   font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
 }
 
+.button-header-group {
+  display: flex;
+  width: 100%;
+}
+
+.button-header-group a {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  text-decoration: none;
+}
+
 .button-header {
   border: none;
+  border-right: 1px solid rgba(255, 255, 255, 0.3);
   background-color: #7b3fae;
   color: white;
-  padding: 15px 32px;
+  padding: 15px 10px;
   text-align: center;
   font-size: 24px;
-  transition-duration: .5s;
-  width: calc(30% - 8px); /* Reduced from 100% for better layout */
+  transition-duration: 0.5s;
+  width: 100%;
+  cursor: pointer;
+}
+
+.button-header-group a:last-child .button-header {
+  border-right: none;
 }
 
 .button-header:hover {
   background-color: #ecf0f1;
   color: #7b3fae;
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2), 
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2),
               0 4px 8px rgba(0, 0, 0, 0.15);
 }
 
