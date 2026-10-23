@@ -290,3 +290,38 @@ footer:hover a {
     max-height: 220px;
   }
 }
+
+.contact-link {
+    color: inherit;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 1.8rem;
+    text-align: center;
+    padding: 12px 8px;
+    margin: 0;
+  }
+
+  .button-header-group {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .button-header-group a {
+    width: 100%;
+    flex: none;
+  }
+
+  .button-header {
+    width: 100%;
+    font-size: 18px;
+    padding: 12px;
+    border-right: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  }
+
+  .button-header:hover {
+    box-shadow: none;
+  }
+}
